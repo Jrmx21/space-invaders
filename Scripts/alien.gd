@@ -1,25 +1,32 @@
 extends CharacterBody2D
 
-const  intervalX= 40
-const speed=100
+const intervalX = 30
+const speed = 10
 var isRight = true
-var initialX
+var initialX = 0.0
 
 
-func _init() -> void:
+func _ready() -> void:
+	# Guardar la posición inicial en el eje X
 	initialX = position.x
-	
+
 func _process(delta: float) -> void:
-	
+	# Movimiento del alien
 	if isRight:
-		position+= transform.x * speed *delta
+		position += Vector2(speed * delta, 0)
 	else:
-		position-= transform.x * speed *delta
+		position -= Vector2(speed * delta, 0)
+
+	# Cambiar dirección si excede el rango
+	if position.x > initialX + intervalX:
+		isRight = false
+		print("pa la izq")
+	elif position.x < initialX - intervalX:
+		isRight = true
+		print("pa la der")
 		
-	if position.x >=initialX+intervalX:
-		isRight = !isRight
-		print("cambia direccion")
-	if position.x <= -initialX- intervalX:
-		isRight = !isRight
-		print("cambia direccion")
-	
+
+
+func _on_timer_timeout() -> void:
+	position += Vector2(0,speed)
+	print("holi")
