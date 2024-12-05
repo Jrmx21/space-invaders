@@ -1,0 +1,26 @@
+[gd_scene load_steps=5 format=3 uid="uid://c62nsmwdrv7yl"]
+
+[ext_resource type="Texture2D" uid="uid://ebxlvihv2adx" path="res://Sprites/jugador.png" id="1_0cemc"]
+[ext_resource type="Script" path="res://Scripts/jugador.gd" id="1_rin01"]
+[ext_resource type="PackedScene" uid="uid://dxphimj2l0ogf" path="res://Scenes/bullet.tscn" id="2_6pjnc"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_prvgt"]
+size = Vector2(14, 4)
+
+[node name="Node2D" type="CharacterBody2D"]
+scale = Vector2(2, 2)
+script = ExtResource("1_rin01")
+bullet_scene = ExtResource("2_6pjnc")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0, 2)
+shape = SubResource("RectangleShape2D_prvgt")
+
+[node name="Jugador" type="Sprite2D" parent="."]
+modulate = Color(1, 0.301961, 1, 1)
+texture = ExtResource("1_0cemc")
+hframes = 2
+
+[node name="Marker2D" type="Marker2D" parent="Jugador"]
+position = Vector2(0, -6)
+rotation = -1.5708

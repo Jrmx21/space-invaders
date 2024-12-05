@@ -1,0 +1,18 @@
+[gd_scene load_steps=4 format=3 uid="uid://4d8uotbhkymm"]
+
+[ext_resource type="Script" path="res://Scripts/alien.gd" id="1_kt7up"]
+[ext_resource type="Texture2D" uid="uid://cf00lsxiuv714" path="res://Sprites/alien1.png" id="1_mxtrt"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_3xpk4"]
+
+[node name="Alien1" type="CharacterBody2D" groups=["Enemies"]]
+script = ExtResource("1_kt7up")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("RectangleShape2D_3xpk4")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+modulate = Color(1, 1, 0, 1)
+scale = Vector2(2, 2)
+texture = ExtResource("1_mxtrt")
+hframes = 3
