@@ -1,0 +1,522 @@
+[gd_scene load_steps=4 format=3 uid="uid://bdvgbxtwbwnb2"]
+
+[ext_resource type="PackedScene" uid="uid://c62nsmwdrv7yl" path="res://Scenes/jugador.tscn" id="1_6i2ds"]
+[ext_resource type="PackedScene" uid="uid://4d8uotbhkymm" path="res://Scenes/alien1.tscn" id="2_7x0lr"]
+[ext_resource type="PackedScene" uid="uid://bphgd6aw15w4c" path="res://Scenes/bunker.tscn" id="3_2lni0"]
+
+[node name="MainScene" type="Node2D"]
+
+[node name="Node2D" parent="." instance=ExtResource("1_6i2ds")]
+position = Vector2(352, 728)
+
+[node name="Alien91" parent="." instance=ExtResource("2_7x0lr")]
+position = Vector2(264, 40)
+
+[node name="Alien92" parent="." instance=ExtResource("2_7x0lr")]
+position = Vector2(296, 40)
+
+[node name="Alien93" parent="." instance=ExtResource("2_7x0lr")]
+position = Vector2(328, 40)
+
+[node name="Alien94" parent="." instance=ExtResource("2_7x0lr")]
+position = Vector2(360, 40)
+
+[node name="Alien95" parent="." instance=ExtResource("2_7x0lr")]
+position = Vector2(392, 40)
+
+[node name="Alien96" parent="." instance=ExtResource("2_7x0lr")]
+position = Vector2(424, 40)
+
+[node name="Alien97" parent="." instance=ExtResource("2_7x0lr")]
+position = Vector2(360, 72)
+
+[node name="Alien98" parent="." instance=ExtResource("2_7x0lr")]
+position = Vector2(392, 72)
+
+[node name="Alien99" parent="." instance=ExtResource("2_7x0lr")]
+position = Vector2(424, 72)
+
+[node name="Alien100" parent="." instance=ExtResource("2_7x0lr")]
+position = Vector2(264, 72)
+
+[node name="Alien101" parent="." instance=ExtResource("2_7x0lr")]
+position = Vector2(296, 72)
+
+[node name="Alien102" parent="." instance=ExtResource("2_7x0lr")]
+position = Vector2(328, 72)
+
+[node name="Alien103" parent="." instance=ExtResource("2_7x0lr")]
+position = Vector2(264, 104)
+
+[node name="Alien104" parent="." instance=ExtResource("2_7x0lr")]
+position = Vector2(296, 104)
+
+[node name="Alien105" parent="." instance=ExtResource("2_7x0lr")]
+position = Vector2(328, 104)
+
+[node name="Alien106" parent="." instance=ExtResource("2_7x0lr")]
+position = Vector2(360, 104)
+
+[node name="Alien107" parent="." instance=ExtResource("2_7x0lr")]
+position = Vector2(392, 104)
+
+[node name="Alien108" parent="." instance=ExtResource("2_7x0lr")]
+position = Vector2(424, 104)
+
+[node name="Alien109" parent="." instance=ExtResource("2_7x0lr")]
+position = Vector2(72, 56)
+
+[node name="Alien110" parent="." instance=ExtResource("2_7x0lr")]
+position = Vector2(104, 56)
+
+[node name="Alien111" parent="." instance=ExtResource("2_7x0lr")]
+position = Vector2(136, 56)
+
+[node name="Alien112" parent="." instance=ExtResource("2_7x0lr")]
+position = Vector2(168, 56)
+
+[node name="Alien113" parent="." instance=ExtResource("2_7x0lr")]
+position = Vector2(200, 56)
+
+[node name="Alien114" parent="." instance=ExtResource("2_7x0lr")]
+position = Vector2(232, 56)
+
+[node name="Alien115" parent="." instance=ExtResource("2_7x0lr")]
+position = Vector2(168, 88)
+
+[node name="Alien116" parent="." instance=ExtResource("2_7x0lr")]
+position = Vector2(200, 88)
+
+[node name="Alien117" parent="." instance=ExtResource("2_7x0lr")]
+position = Vector2(232, 88)
+
+[node name="Alien118" parent="." instance=ExtResource("2_7x0lr")]
+position = Vector2(72, 88)
+
+[node name="Alien119" parent="." instance=ExtResource("2_7x0lr")]
+position = Vector2(104, 88)
+
+[node name="Alien120" parent="." instance=ExtResource("2_7x0lr")]
+position = Vector2(136, 88)
+
+[node name="Alien121" parent="." instance=ExtResource("2_7x0lr")]
+position = Vector2(72, 120)
+
+[node name="Alien122" parent="." instance=ExtResource("2_7x0lr")]
+position = Vector2(104, 120)
+
+[node name="Alien123" parent="." instance=ExtResource("2_7x0lr")]
+position = Vector2(136, 120)
+
+[node name="Alien124" parent="." instance=ExtResource("2_7x0lr")]
+position = Vector2(168, 120)
+
+[node name="Alien125" parent="." instance=ExtResource("2_7x0lr")]
+position = Vector2(200, 120)
+
+[node name="Alien126" parent="." instance=ExtResource("2_7x0lr")]
+position = Vector2(232, 120)
+
+[node name="Alien127" parent="." instance=ExtResource("2_7x0lr")]
+position = Vector2(456, 56)
+
+[node name="Alien128" parent="." instance=ExtResource("2_7x0lr")]
+position = Vector2(488, 56)
+
+[node name="Alien129" parent="." instance=ExtResource("2_7x0lr")]
+position = Vector2(520, 56)
+
+[node name="Alien130" parent="." instance=ExtResource("2_7x0lr")]
+position = Vector2(552, 56)
+
+[node name="Alien131" parent="." instance=ExtResource("2_7x0lr")]
+position = Vector2(584, 56)
+
+[node name="Alien132" parent="." instance=ExtResource("2_7x0lr")]
+position = Vector2(616, 56)
+
+[node name="Alien133" parent="." instance=ExtResource("2_7x0lr")]
+position = Vector2(552, 88)
+
+[node name="Alien134" parent="." instance=ExtResource("2_7x0lr")]
+position = Vector2(584, 88)
+
+[node name="Alien135" parent="." instance=ExtResource("2_7x0lr")]
+position = Vector2(616, 88)
+
+[node name="Alien136" parent="." instance=ExtResource("2_7x0lr")]
+position = Vector2(456, 88)
+
+[node name="Alien137" parent="." instance=ExtResource("2_7x0lr")]
+position = Vector2(488, 88)
+
+[node name="Alien138" parent="." instance=ExtResource("2_7x0lr")]
+position = Vector2(520, 88)
+
+[node name="Alien139" parent="." instance=ExtResource("2_7x0lr")]
+position = Vector2(456, 120)
+
+[node name="Alien140" parent="." instance=ExtResource("2_7x0lr")]
+position = Vector2(488, 120)
+
+[node name="Alien141" parent="." instance=ExtResource("2_7x0lr")]
+position = Vector2(520, 120)
+
+[node name="Alien142" parent="." instance=ExtResource("2_7x0lr")]
+position = Vector2(552, 120)
+
+[node name="Alien143" parent="." instance=ExtResource("2_7x0lr")]
+position = Vector2(584, 120)
+
+[node name="Alien144" parent="." instance=ExtResource("2_7x0lr")]
+position = Vector2(616, 120)
+
+[node name="Alien145" parent="." instance=ExtResource("2_7x0lr")]
+position = Vector2(264, 224)
+
+[node name="Alien146" parent="." instance=ExtResource("2_7x0lr")]
+position = Vector2(296, 224)
+
+[node name="Alien147" parent="." instance=ExtResource("2_7x0lr")]
+position = Vector2(328, 224)
+
+[node name="Alien148" parent="." instance=ExtResource("2_7x0lr")]
+position = Vector2(360, 224)
+
+[node name="Alien149" parent="." instance=ExtResource("2_7x0lr")]
+position = Vector2(392, 224)
+
+[node name="Alien150" parent="." instance=ExtResource("2_7x0lr")]
+position = Vector2(424, 224)
+
+[node name="Alien151" parent="." instance=ExtResource("2_7x0lr")]
+position = Vector2(360, 256)
+
+[node name="Alien152" parent="." instance=ExtResource("2_7x0lr")]
+position = Vector2(392, 256)
+
+[node name="Alien153" parent="." instance=ExtResource("2_7x0lr")]
+position = Vector2(424, 256)
+
+[node name="Alien154" parent="." instance=ExtResource("2_7x0lr")]
+position = Vector2(264, 256)
+
+[node name="Alien155" parent="." instance=ExtResource("2_7x0lr")]
+position = Vector2(296, 256)
+
+[node name="Alien156" parent="." instance=ExtResource("2_7x0lr")]
+position = Vector2(328, 256)
+
+[node name="Alien157" parent="." instance=ExtResource("2_7x0lr")]
+position = Vector2(264, 288)
+
+[node name="Alien158" parent="." instance=ExtResource("2_7x0lr")]
+position = Vector2(296, 288)
+
+[node name="Alien159" parent="." instance=ExtResource("2_7x0lr")]
+position = Vector2(328, 288)
+
+[node name="Alien160" parent="." instance=ExtResource("2_7x0lr")]
+position = Vector2(360, 288)
+
+[node name="Alien161" parent="." instance=ExtResource("2_7x0lr")]
+position = Vector2(392, 288)
+
+[node name="Alien162" parent="." instance=ExtResource("2_7x0lr")]
+position = Vector2(424, 288)
+
+[node name="Alien163" parent="." instance=ExtResource("2_7x0lr")]
+position = Vector2(72, 240)
+
+[node name="Alien164" parent="." instance=ExtResource("2_7x0lr")]
+position = Vector2(104, 240)
+
+[node name="Alien165" parent="." instance=ExtResource("2_7x0lr")]
+position = Vector2(136, 240)
+
+[node name="Alien166" parent="." instance=ExtResource("2_7x0lr")]
+position = Vector2(168, 240)
+
+[node name="Alien167" parent="." instance=ExtResource("2_7x0lr")]
+position = Vector2(200, 240)
+
+[node name="Alien168" parent="." instance=ExtResource("2_7x0lr")]
+position = Vector2(232, 240)
+
+[node name="Alien169" parent="." instance=ExtResource("2_7x0lr")]
+position = Vector2(168, 272)
+
+[node name="Alien170" parent="." instance=ExtResource("2_7x0lr")]
+position = Vector2(200, 272)
+
+[node name="Alien171" parent="." instance=ExtResource("2_7x0lr")]
+position = Vector2(232, 272)
+
+[node name="Alien172" parent="." instance=ExtResource("2_7x0lr")]
+position = Vector2(72, 272)
+
+[node name="Alien173" parent="." instance=ExtResource("2_7x0lr")]
+position = Vector2(104, 272)
+
+[node name="Alien174" parent="." instance=ExtResource("2_7x0lr")]
+position = Vector2(136, 272)
+
+[node name="Alien175" parent="." instance=ExtResource("2_7x0lr")]
+position = Vector2(72, 304)
+
+[node name="Alien176" parent="." instance=ExtResource("2_7x0lr")]
+position = Vector2(104, 304)
+
+[node name="Alien177" parent="." instance=ExtResource("2_7x0lr")]
+position = Vector2(136, 304)
+
+[node name="Alien178" parent="." instance=ExtResource("2_7x0lr")]
+position = Vector2(168, 304)
+
+[node name="Alien179" parent="." instance=ExtResource("2_7x0lr")]
+position = Vector2(200, 304)
+
+[node name="Alien180" parent="." instance=ExtResource("2_7x0lr")]
+position = Vector2(232, 304)
+
+[node name="Alien181" parent="." instance=ExtResource("2_7x0lr")]
+position = Vector2(456, 240)
+
+[node name="Alien182" parent="." instance=ExtResource("2_7x0lr")]
+position = Vector2(488, 240)
+
+[node name="Alien183" parent="." instance=ExtResource("2_7x0lr")]
+position = Vector2(520, 240)
+
+[node name="Alien184" parent="." instance=ExtResource("2_7x0lr")]
+position = Vector2(552, 240)
+
+[node name="Alien185" parent="." instance=ExtResource("2_7x0lr")]
+position = Vector2(584, 240)
+
+[node name="Alien186" parent="." instance=ExtResource("2_7x0lr")]
+position = Vector2(616, 240)
+
+[node name="Alien187" parent="." instance=ExtResource("2_7x0lr")]
+position = Vector2(552, 272)
+
+[node name="Alien188" parent="." instance=ExtResource("2_7x0lr")]
+position = Vector2(584, 272)
+
+[node name="Alien189" parent="." instance=ExtResource("2_7x0lr")]
+position = Vector2(616, 272)
+
+[node name="Alien190" parent="." instance=ExtResource("2_7x0lr")]
+position = Vector2(456, 272)
+
+[node name="Alien191" parent="." instance=ExtResource("2_7x0lr")]
+position = Vector2(488, 272)
+
+[node name="Alien192" parent="." instance=ExtResource("2_7x0lr")]
+position = Vector2(520, 272)
+
+[node name="Alien193" parent="." instance=ExtResource("2_7x0lr")]
+position = Vector2(456, 304)
+
+[node name="Alien194" parent="." instance=ExtResource("2_7x0lr")]
+position = Vector2(488, 304)
+
+[node name="Alien195" parent="." instance=ExtResource("2_7x0lr")]
+position = Vector2(520, 304)
+
+[node name="Alien196" parent="." instance=ExtResource("2_7x0lr")]
+position = Vector2(552, 304)
+
+[node name="Alien197" parent="." instance=ExtResource("2_7x0lr")]
+position = Vector2(584, 304)
+
+[node name="Alien198" parent="." instance=ExtResource("2_7x0lr")]
+position = Vector2(616, 304)
+
+[node name="Alien199" parent="." instance=ExtResource("2_7x0lr")]
+position = Vector2(256, 432)
+
+[node name="Alien200" parent="." instance=ExtResource("2_7x0lr")]
+position = Vector2(288, 432)
+
+[node name="Alien201" parent="." instance=ExtResource("2_7x0lr")]
+position = Vector2(320, 432)
+
+[node name="Alien202" parent="." instance=ExtResource("2_7x0lr")]
+position = Vector2(352, 432)
+
+[node name="Alien203" parent="." instance=ExtResource("2_7x0lr")]
+position = Vector2(384, 432)
+
+[node name="Alien204" parent="." instance=ExtResource("2_7x0lr")]
+position = Vector2(416, 432)
+
+[node name="Alien205" parent="." instance=ExtResource("2_7x0lr")]
+position = Vector2(352, 464)
+
+[node name="Alien206" parent="." instance=ExtResource("2_7x0lr")]
+position = Vector2(384, 464)
+
+[node name="Alien207" parent="." instance=ExtResource("2_7x0lr")]
+position = Vector2(416, 464)
+
+[node name="Alien208" parent="." instance=ExtResource("2_7x0lr")]
+position = Vector2(256, 464)
+
+[node name="Alien209" parent="." instance=ExtResource("2_7x0lr")]
+position = Vector2(288, 464)
+
+[node name="Alien210" parent="." instance=ExtResource("2_7x0lr")]
+position = Vector2(320, 464)
+
+[node name="Alien211" parent="." instance=ExtResource("2_7x0lr")]
+position = Vector2(256, 496)
+
+[node name="Alien212" parent="." instance=ExtResource("2_7x0lr")]
+position = Vector2(288, 496)
+
+[node name="Alien213" parent="." instance=ExtResource("2_7x0lr")]
+position = Vector2(320, 496)
+
+[node name="Alien214" parent="." instance=ExtResource("2_7x0lr")]
+position = Vector2(352, 496)
+
+[node name="Alien215" parent="." instance=ExtResource("2_7x0lr")]
+position = Vector2(384, 496)
+
+[node name="Alien216" parent="." instance=ExtResource("2_7x0lr")]
+position = Vector2(416, 496)
+
+[node name="Alien217" parent="." instance=ExtResource("2_7x0lr")]
+position = Vector2(64, 448)
+
+[node name="Alien218" parent="." instance=ExtResource("2_7x0lr")]
+position = Vector2(96, 448)
+
+[node name="Alien219" parent="." instance=ExtResource("2_7x0lr")]
+position = Vector2(128, 448)
+
+[node name="Alien220" parent="." instance=ExtResource("2_7x0lr")]
+position = Vector2(160, 448)
+
+[node name="Alien221" parent="." instance=ExtResource("2_7x0lr")]
+position = Vector2(192, 448)
+
+[node name="Alien222" parent="." instance=ExtResource("2_7x0lr")]
+position = Vector2(224, 448)
+
+[node name="Alien223" parent="." instance=ExtResource("2_7x0lr")]
+position = Vector2(160, 480)
+
+[node name="Alien224" parent="." instance=ExtResource("2_7x0lr")]
+position = Vector2(192, 480)
+
+[node name="Alien225" parent="." instance=ExtResource("2_7x0lr")]
+position = Vector2(224, 480)
+
+[node name="Alien226" parent="." instance=ExtResource("2_7x0lr")]
+position = Vector2(64, 480)
+
+[node name="Alien227" parent="." instance=ExtResource("2_7x0lr")]
+position = Vector2(96, 480)
+
+[node name="Alien228" parent="." instance=ExtResource("2_7x0lr")]
+position = Vector2(128, 480)
+
+[node name="Alien229" parent="." instance=ExtResource("2_7x0lr")]
+position = Vector2(64, 512)
+
+[node name="Alien230" parent="." instance=ExtResource("2_7x0lr")]
+position = Vector2(96, 512)
+
+[node name="Alien231" parent="." instance=ExtResource("2_7x0lr")]
+position = Vector2(128, 512)
+
+[node name="Alien232" parent="." instance=ExtResource("2_7x0lr")]
+position = Vector2(160, 512)
+
+[node name="Alien233" parent="." instance=ExtResource("2_7x0lr")]
+position = Vector2(192, 512)
+
+[node name="Alien234" parent="." instance=ExtResource("2_7x0lr")]
+position = Vector2(224, 512)
+
+[node name="Alien235" parent="." instance=ExtResource("2_7x0lr")]
+position = Vector2(448, 448)
+
+[node name="Alien236" parent="." instance=ExtResource("2_7x0lr")]
+position = Vector2(480, 448)
+
+[node name="Alien237" parent="." instance=ExtResource("2_7x0lr")]
+position = Vector2(512, 448)
+
+[node name="Alien238" parent="." instance=ExtResource("2_7x0lr")]
+position = Vector2(544, 448)
+
+[node name="Alien239" parent="." instance=ExtResource("2_7x0lr")]
+position = Vector2(576, 448)
+
+[node name="Alien240" parent="." instance=ExtResource("2_7x0lr")]
+position = Vector2(608, 448)
+
+[node name="Alien241" parent="." instance=ExtResource("2_7x0lr")]
+position = Vector2(544, 480)
+
+[node name="Alien242" parent="." instance=ExtResource("2_7x0lr")]
+position = Vector2(576, 480)
+
+[node name="Alien243" parent="." instance=ExtResource("2_7x0lr")]
+position = Vector2(608, 480)
+
+[node name="Alien244" parent="." instance=ExtResource("2_7x0lr")]
+position = Vector2(448, 480)
+
+[node name="Alien245" parent="." instance=ExtResource("2_7x0lr")]
+position = Vector2(480, 480)
+
+[node name="Alien246" parent="." instance=ExtResource("2_7x0lr")]
+position = Vector2(512, 480)
+
+[node name="Alien247" parent="." instance=ExtResource("2_7x0lr")]
+position = Vector2(448, 512)
+
+[node name="Alien248" parent="." instance=ExtResource("2_7x0lr")]
+position = Vector2(480, 512)
+
+[node name="Alien249" parent="." instance=ExtResource("2_7x0lr")]
+position = Vector2(512, 512)
+
+[node name="Alien250" parent="." instance=ExtResource("2_7x0lr")]
+position = Vector2(544, 512)
+
+[node name="Alien251" parent="." instance=ExtResource("2_7x0lr")]
+position = Vector2(576, 512)
+
+[node name="Alien252" parent="." instance=ExtResource("2_7x0lr")]
+position = Vector2(608, 512)
+
+[node name="Bunker" parent="." instance=ExtResource("3_2lni0")]
+position = Vector2(80, 656)
+
+[node name="Bunker2" parent="." instance=ExtResource("3_2lni0")]
+position = Vector2(224, 656)
+
+[node name="Bunker3" parent="." instance=ExtResource("3_2lni0")]
+position = Vector2(480, 656)
+
+[node name="Bunker4" parent="." instance=ExtResource("3_2lni0")]
+position = Vector2(600, 656)
+
+[node name="TextoVidas" type="RichTextLabel" parent="."]
+offset_left = 16.0
+offset_top = 8.0
+offset_right = 144.0
+offset_bottom = 32.0
+text = "Lifes: 3"
+
+[node name="TextoAliens" type="RichTextLabel" parent="."]
+offset_left = 544.0
+offset_top = 8.0
+offset_right = 664.0
+offset_bottom = 32.0
+text = "Aliens Left: 000"
