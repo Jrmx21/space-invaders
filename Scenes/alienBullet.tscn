@@ -1,0 +1,31 @@
+[gd_scene load_steps=4 format=3 uid="uid://d1is6dijqj4hd"]
+
+[ext_resource type="Script" path="res://Scripts/alien_bullet.gd" id="1_4dd03"]
+[ext_resource type="Texture2D" uid="uid://d31nyuvkkhr55" path="res://Sprites/disparoJugador.png" id="2_82fs4"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_o26i5"]
+size = Vector2(2.49996, 10)
+
+[node name="AlienBullet" type="Area2D"]
+scale = Vector2(2, 2)
+script = ExtResource("1_4dd03")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+modulate = Color(1, 0, 0.164706, 1)
+position = Vector2(6.67602e-07, -0.250283)
+rotation = 1.5708
+scale = Vector2(2.41746, 1.42739)
+texture = ExtResource("2_82fs4")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(1.78814e-07, -0.25)
+rotation = 1.5708
+shape = SubResource("RectangleShape2D_o26i5")
+
+[node name="VisibleOnScreenNotifier2D" type="VisibleOnScreenNotifier2D" parent="."]
+position = Vector2(0.00270987, -0.0390021)
+rotation = 1.5708
+scale = Vector2(0.110911, 0.496229)
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]
+[connection signal="screen_exited" from="VisibleOnScreenNotifier2D" to="." method="_on_visible_on_screen_notifier_2d_screen_exited"]

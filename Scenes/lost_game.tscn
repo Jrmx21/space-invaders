@@ -1,0 +1,39 @@
+[gd_scene load_steps=2 format=3 uid="uid://i770dj3hooph"]
+
+[ext_resource type="Script" path="res://Scripts/main_menu.gd" id="1_exqen"]
+
+[node name="MainMenu" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_exqen")
+
+[node name="RichTextLabel" type="RichTextLabel" parent="."]
+layout_mode = 0
+offset_left = 248.0
+offset_top = 88.0
+offset_right = 392.0
+offset_bottom = 170.0
+text = "SPACE INVADERS
+David Ruiz Edition"
+
+[node name="RichTextLabel2" type="RichTextLabel" parent="."]
+layout_mode = 0
+offset_left = 272.0
+offset_top = 264.0
+offset_right = 363.0
+offset_bottom = 296.0
+text = "PERDISTE"
+
+[node name="Button" type="Button" parent="."]
+layout_mode = 0
+offset_left = 64.0
+offset_top = 448.0
+offset_right = 208.0
+offset_bottom = 488.0
+text = "Jugar"
+
+[connection signal="pressed" from="Button" to="." method="_on_button_pressed"]

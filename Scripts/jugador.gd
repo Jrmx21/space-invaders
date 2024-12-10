@@ -2,6 +2,7 @@ extends CharacterBody2D
 
 @export var bullet_scene : PackedScene
 const SPEED = 300.0
+var lifes = 3
 
 func _process(delta):
 	velocity = Vector2.ZERO

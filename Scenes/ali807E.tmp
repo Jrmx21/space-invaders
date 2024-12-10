@@ -19,17 +19,11 @@ scale = Vector2(2, 2)
 texture = ExtResource("1_mxtrt")
 hframes = 3
 
-[node name="Marker2D" type="Marker2D" parent="Sprite2D"]
-position = Vector2(0, 6.5)
-rotation = 1.5708
-scale = Vector2(0.5, 0.5)
-
 [node name="Timer" type="Timer" parent="."]
 wait_time = 4.0
 autostart = true
 
-[node name="Timer2" type="Timer" parent="."]
-autostart = true
+[node name="Marker2D" type="Marker2D" parent="."]
+position = Vector2(0, 13)
 
 [connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]
-[connection signal="timeout" from="Timer2" to="." method="_on_timer_2_timeout"]
