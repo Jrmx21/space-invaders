@@ -4,7 +4,7 @@
 [ext_resource type="Texture2D" uid="uid://d31nyuvkkhr55" path="res://Sprites/disparoJugador.png" id="2_sgjay"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_o26i5"]
-size = Vector2(2, 14)
+size = Vector2(3, 24)
 
 [node name="Bullet" type="Area2D"]
 scale = Vector2(2, 2)
@@ -16,6 +16,7 @@ scale = Vector2(2, 2)
 texture = ExtResource("2_sgjay")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(5, -2.98023e-08)
 rotation = 1.5708
 shape = SubResource("RectangleShape2D_o26i5")
 

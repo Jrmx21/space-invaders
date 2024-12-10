@@ -28,4 +28,12 @@ offset_right = 208.0
 offset_bottom = 488.0
 text = "Jugar"
 
+[node name="Button2" type="Button" parent="."]
+offset_left = 468.0
+offset_top = 448.0
+offset_right = 612.0
+offset_bottom = 488.0
+text = "Salir"
+
 [connection signal="pressed" from="Button" to="." method="_on_button_pressed"]
+[connection signal="pressed" from="Button2" to="." method="_on_button_2_pressed"]

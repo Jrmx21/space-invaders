@@ -6,7 +6,7 @@
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_o26i5"]
 size = Vector2(2.49996, 10)
 
-[node name="AlienBullet" type="Area2D"]
+[node name="AlienBullet" type="Area2D" groups=["AlienBullet"]]
 scale = Vector2(2, 2)
 script = ExtResource("1_4dd03")
 
@@ -22,7 +22,7 @@ position = Vector2(1.78814e-07, -0.25)
 rotation = 1.5708
 shape = SubResource("RectangleShape2D_o26i5")
 
-[node name="VisibleOnScreenNotifier2D" type="VisibleOnScreenNotifier2D" parent="."]
+[node name="VisibleOnScreenNotifier2D" type="VisibleOnScreenNotifier2D" parent="." groups=["AlienBullet"]]
 position = Vector2(0.00270987, -0.0390021)
 rotation = 1.5708
 scale = Vector2(0.110911, 0.496229)
