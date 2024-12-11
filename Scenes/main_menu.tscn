@@ -29,6 +29,7 @@ offset_bottom = 488.0
 text = "Jugar"
 
 [node name="Button2" type="Button" parent="."]
+layout_mode = 0
 offset_left = 468.0
 offset_top = 448.0
 offset_right = 612.0
